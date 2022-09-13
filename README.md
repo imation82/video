@@ -1,4 +1,4 @@
-# videotc
+# VideoTC
 
 ## Build Setup
 
