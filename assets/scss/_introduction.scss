@@ -4,6 +4,14 @@
     padding-top: 105px;
     padding-bottom: 105px;
     background-color: $blue-1;
+    &__left {
+        &--apps {
+            margin-top: 40px;
+            &__ios {
+                margin-right: 30px !important;
+            }
+        }
+    }
     &::before {
         content: url(~/assets/svg/top-right.svg);
         position: absolute;
