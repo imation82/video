@@ -31,8 +31,14 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~/assets/scss/style.scss"],
+  css: ["~/assets/scss/style.scss", "bootstrap/dist/css/bootstrap.min.css"],
 
+  script: [
+    {
+      src: "bootstrap/dist/js/bootstrap.bundle.min.js",
+      type: "text/javascript"
+    }
+   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -48,8 +54,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
