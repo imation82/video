@@ -5,3 +5,12 @@
     font-weight: $font-weight;
     line-height: $line-height;
 }
+
+// Mixin - Padding
+
+@mixin padding($p-top, $p-right, $p-bottom, $p-left) {
+    padding-top: $p-top;
+    padding-right: $p-right;
+    padding-bottom: $p-bottom;
+    padding-left: $p-left;
+}

@@ -1,7 +1,8 @@
 <template>
   <section>
     <!-- <NavBar/> -->
-    <Introduction/>    
+    <Introduction/> 
+    <History/>   
   </section>
 </template>
 
@@ -9,12 +10,14 @@
 
 // import NavBar from '~/components/NavBar';
 import Introduction from '~/components/Introduction';
+import History from '~/components/History';
 
 export default {
     name: "Index",
     components: {
       // NavBar,
-      Introduction
+      Introduction,
+      History
   }
 }
 </script>

@@ -1,0 +1,18 @@
+
+.history {
+    background-color: $blue-2;
+    @include padding(100px, 0px, 100px, 0px);
+    position: relative;
+    &__headline {
+        max-width: 763px;
+        h2 {
+            @include font($font-size-2, $font-weight-3, $line-height-7);
+            color: $text-white;
+            span {
+                font-family: $font-family-2;
+                @include font($font-size-2, $font-weight-2, $line-height-7);
+                color: $text-orange;
+            }
+        }
+    }
+}

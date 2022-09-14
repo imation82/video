@@ -1,9 +1,8 @@
 
 .introduction {
     position: relative;
-    padding-top: 105px;
-    padding-bottom: 105px;
     background-color: $blue-1;
+    @include padding(100px, 0px, 100px, 0px);
     &__left {
         &--apps {
             margin-top: 40px;
@@ -15,14 +14,14 @@
     &::before {
         content: url(~/assets/svg/top-right.svg);
         position: absolute;
-        top: 0;
+        top: -140px;
         right: 0;
     }
     &::after {
         content: url(~/assets/svg/bottom-left.svg);
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: -15px;
     }
     &__left {
         max-width: 593px;
