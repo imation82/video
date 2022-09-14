@@ -1,1 +1,11 @@
 @import "abstracts/breakpoints";
+
+@import "mixin";
+@import "typography";
+@import "color";
+@import "navbar";
+@import "introduction";
+
+body {
+    font-family: $font-family;
+}
