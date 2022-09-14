@@ -2,7 +2,8 @@
   <section>
     <!-- <NavBar/> -->
     <Introduction/> 
-    <History/>   
+    <History/>
+    <Connect/>   
   </section>
 </template>
 
@@ -11,13 +12,15 @@
 // import NavBar from '~/components/NavBar';
 import Introduction from '~/components/Introduction';
 import History from '~/components/History';
+import Connect from '~/components/Connect';
 
 export default {
     name: "Index",
     components: {
       // NavBar,
       Introduction,
-      History
+      History,
+      Connect
   }
 }
 </script>

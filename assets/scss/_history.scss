@@ -5,7 +5,7 @@
     position: relative;
     &__headline {
         max-width: 763px;
-        h2 {
+        h3 {
             @include font($font-size-2, $font-weight-3, $line-height-7);
             color: $text-white;
             span {
@@ -18,7 +18,7 @@
     &__capsule {
         @include padding(75px, 0px, 0px, 0px);
         &--content {
-            h3 {
+            h4 {
                 @include font($font-size-4, $font-weight-3, $line-height-8);
                 color: $text-white;
                 margin-bottom: 00px;
