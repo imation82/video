@@ -8,6 +8,7 @@
     <Download/>
     <Testimonial/>
     <Team/>
+    <Footer/>
   </section>
 </template>
 
@@ -21,6 +22,7 @@ import Discover from '~/components/Discover';
 import Download from '~/components/Download';
 import Testimonial from '~/components/Testimonial';
 import Team from '~/components/Team';
+import Footer from "~/components/Footer";
 
 export default {
     name: "Index",
@@ -31,7 +33,9 @@ export default {
       Connect,
       Discover,
       Download,
-      Testimonial
+      Testimonial,
+      Team,
+      Footer
   }
 }
 </script>

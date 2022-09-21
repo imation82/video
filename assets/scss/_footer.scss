@@ -1,0 +1,34 @@
+
+.footer {
+    padding: 165px 0px;
+    background: $blue-4;
+    h3 {
+        @include font($font-size-6, $font-weight-1, $line-height-4);
+        color: $text-white;
+    }
+    &__links {
+        padding-left: 0;
+        list-style-type: none;
+        li {
+            line-height: 42px;            
+        }
+        a {
+            text-decoration: none;
+            color: #BCBCBC;
+            &:hover,
+            &:focus {
+                color: #BCBCBC;
+            }
+        }
+    }
+    p {
+        color: #BCBCBC;
+        line-height: 28px;
+    } 
+    &__socials {
+        margin-top: 30px;
+    }
+    &__apps {
+        margin-top: 30px;
+    }   
+}
