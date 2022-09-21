@@ -1,7 +1,7 @@
 .testimonial {
     position: relative;
     background-color: $blue-1;
-    @include padding(100px, 0px, 100px, 0px);
+    @include padding(100px, 0px, 160px, 0px);
     &__headline {
         max-width: 434px;
         h3 {
@@ -33,7 +33,31 @@
         }
         &--rating {
             color: #F9B50B;
+            font-size: 15px;
         }
     }     
+}
+
+.slick-dots {
+    bottom: -60px !important;
+    left: -10px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    content: "" !important;  
+    background: #F2994A;  
+    border-radius: 21px !important;  
+    width: 30px !important;
+    margin-left: -10px !important;   
+}
+
+.slick-dots li button:before {
+    background: $text-white;
+    content: "" !important;
+    opacity: 1 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 10px !important;
 }
 

@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col-lg-11 offset-lg-1">
                     <VueSlickCarousel v-bind="slickOptions">
-                        <div v-for="(testimonials, i) in testimonial" :key="i" class="testimonial__slider text-center">
-                            <p>{{ testimonials.comments }}</p>
+                        <div v-for="(testimonials, i) in testimonial" :key="i" class="testimonial__slider">
+                            <p class="text-center">{{ testimonials.comments }}</p>
                             <div class="testimonial__content d-flex justify-content-center align-items-center">
                                 <div>
                                     <img :src="testimonials.clientImg" :alt="testimonials.alt"/>
@@ -53,28 +53,28 @@ export default {
             name: "Daanvielen",
             alt: "Daanvielen",
             clientImg: client01,
-            rating: "★ ★ ★ ★ ★"
+            rating: "★★★★★"
         },
         {
             comments: "Disable wireframe mode at any time to render your project as a high-fidelity mockup.",
             name: "Thewiscokid",
             alt: "Thewiscokid",
             clientImg: client02,
-            rating: "★ ★ ★ ★ ★"            
+            rating: "★★★★★"            
         },
         {
             comments: "Disable wireframe mode at any time to render your project as a high-fidelity mockup.",
             name: "Daanvielen",
             alt: "Daanvielen",
             clientImg: client01,
-            rating: "★ ★ ★ ★ ★"            
+            rating: "★★★★★"            
         },
         {
             comments: "Disable wireframe mode at any time to render your project as a high-fidelity mockup.",
             name: "Thewiscokid",
             alt: "Thewiscokid",
             clientImg: client02,
-            rating: "★ ★ ★ ★ ★"            
+            rating: "★★★★★"            
         }                        
       ]
     }
