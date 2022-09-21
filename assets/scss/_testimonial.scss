@@ -11,5 +11,23 @@
     } 
     &__slider {
         margin-top: 90px;
+        background: #fff;
+        padding: 24px;
+        border-radius: 10px;
+        p {
+            margin-bottom: 0px;
+            @include font($base-font-size, $font-weight-1, $line-height-2);
+            color: #202020;
+        }
+    }
+    &__content {
+        margin-top: 40px;
+        img {
+            margin-right: 10px;
+        }
+        h4 {
+            @include font($base-font-size, $font-weight-1, $line-height-1);
+            color: #767676;
+        }
     }     
 }
