@@ -1,0 +1,37 @@
+.team {
+    background-color: $blue-3;
+    @include padding(100px, 0px, 100px, 0px);
+    &__headline {
+        max-width: 455px;
+        h3 {
+            @include font($font-size-2, $font-weight-3, $line-height-7);
+            color: $text-white;
+            margin-bottom: 55px;
+        }
+    } 
+    &__profile {
+        background-color: #fff;
+        border-radius: 10px;
+        img {
+            margin-bottom: 20px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        &--content {
+            padding-bottom: 25px;
+            h4 {
+                @include font($font-size-3, $font-weight-2, $line-height-5);
+                margin-bottom: 0
+            }
+            h5 {
+                @include font($base-font-size, $font-weight-1, $line-height-4);
+                color: #4F4F4F;
+                margin-bottom: 0
+            }
+            span {
+                @include font($base-font-size, $font-weight-1, $line-height-4);
+                color: #4F4F4F;                
+            }
+        }
+    }   
+}
