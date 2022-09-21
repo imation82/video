@@ -10,6 +10,7 @@
         }
     } 
     &__slider {
+        max-width: 367px;
         margin-top: 90px;
         background: #fff;
         padding: 24px;
@@ -28,6 +29,11 @@
         h4 {
             @include font($base-font-size, $font-weight-1, $line-height-1);
             color: #767676;
+            margin-bottom: 0;
+        }
+        &--rating {
+            color: #F9B50B;
         }
     }     
 }
+
