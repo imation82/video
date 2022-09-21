@@ -9,107 +9,111 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3" v-for="(teams, i) in team" :key="i">
                     <div class="team__profile mb-4">
-                        <img src="~assets/images/team/nicholas.jpg" alt="Nicholas" class="img-fluid d-block mx-auto w-100">
+                        <img :src="teams.img" :alt="teams.alt" class="img-fluid d-block mx-auto w-100">
                         <div class="team__profile--content text-center">
-                            <h4>Nicholas P</h4>
-                            <h5>Founder CEO</h5>
-                            <span>Burlington, Iowa</span>
+                            <h4>{{ teams.name }}</h4>
+                            <h5>{{ teams.position }}</h5>
+                            <span>{{ teams.place }}</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/samantha.jpg" alt="Samantha" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Samantha P</h4>
-                            <h5>Founder</h5>
-                            <span>Iowa City, Iowa</span>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/nicole.jpg" alt="Nicole" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Nicole P</h4>
-                            <h5>Co-Founder</h5>
-                            <span>Pine Mountain, Georgia</span>
-                        </div>
-                    </div>                     
-                </div>
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/mitchell.jpg" alt="Mitchell" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Mitchell N</h4>
-                            <h5>Co-Founder</h5>
-                            <span>Fort Madison, Iowa</span>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/dane.jpg" alt="Dane" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Dane B</h4>
-                            <h5>VP Project Manager</h5>
-                            <span>Vernon, Washington</span>
-                        </div>
-                    </div>                    
-                </div> 
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/hasan.jpg" alt="Hasan" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Hasan H</h4>
-                            <h5>Advisor</h5>
-                            <span>Manhattan, New York</span>
-                        </div>
-                    </div>                    
-                </div> 
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/julia.jpg" alt="Julia" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Julia M</h4>
-                            <h5>Consultant</h5>
-                            <span>Spain</span>
-                        </div>
-                    </div>                    
-                </div> 
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/ariful.jpg" alt="Ariful" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Ariful H</h4>
-                            <h5>UI/UX Designer</h5>
-                            <span>Bangladesh</span>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/rahima.jpg" alt="Rahima" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Rahima S</h4>
-                            <h5>Programmer</h5>
-                            <span>Bangladesh</span>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="col-lg-3">
-                    <div class="team__profile mb-4">
-                        <img src="~assets/images/team/ward.jpg" alt="Ward" class="img-fluid d-block mx-auto w-100">
-                        <div class="team__profile--content text-center">
-                            <h4>Ward G</h4>
-                            <h5>Programmer</h5>
-                            <span>Amman, Jordan</span>
-                        </div>
-                    </div>                    
-                </div>                                                                                                
             </div>
         </div>
     </section>
 </template>
+
+<script>
+
+import team01 from "~/assets/images/team/nicholas.jpg";
+import team02 from "~/assets/images/team/samantha.jpg";
+import team03 from "~/assets/images/team/nicole.jpg";
+import team04 from "~/assets/images/team/mitchell.jpg";
+import team05 from "~/assets/images/team/dane.jpg";
+import team06 from "~/assets/images/team/hasan.jpg";
+import team07 from "~/assets/images/team/julia.jpg";
+import team08 from "~/assets/images/team/ariful.jpg";
+import team09 from "~/assets/images/team/rahima.jpg";
+import team10 from "~/assets/images/team/ward.jpg";
+
+
+export default {
+    data() {
+        return {
+            team: [
+                {
+                    img: team01,
+                    name: "Nicholas P",
+                    alt: "Nicholas",
+                    position: "Founder CEO",
+                    place: "Burlington, Iowa"
+                },
+                {
+                    img: team02,
+                    name: "Samantha P",
+                    alt: "Samantha",
+                    position: "Founder",
+                    place: "Iowa City, Iowa"
+                },
+                {
+                    img: team03,
+                    name: "Nicole P",
+                    alt: "Nicole",
+                    position: "Co-Founder",
+                    place: "Pine Mountain, Georgia"
+                },
+                {
+                    img: team04,
+                    name: "Mitchell N",
+                    alt: "Mitchell",
+                    position: "Co-Founder",
+                    place: "Fort Madison, Iowa"
+                },
+                {
+                    img: team05,
+                    name: "Dane B",
+                    alt: "Dane",
+                    position: "VP Project Manager",
+                    place: "Vernon, Washington"
+                },
+                {
+                    img: team06,
+                    name: "Hasan H",
+                    alt: "Hasan",
+                    position: "Advisor",
+                    place: "Manhattan, New York"
+                },
+                {
+                    img: team07,
+                    name: "Julia M",
+                    alt: "Julia",
+                    position: "Consultant",
+                    place: "Spain"
+                },
+                {
+                    img: team08,
+                    name: "Ariful H",
+                    alt: "Ariful",
+                    position: "UI/UX Designer",
+                    place: "Bangladesh"
+                },
+                {
+                    img: team09,
+                    name: "Rahima S",
+                    alt: "Rahima",
+                    position: "Programmer",
+                    place: "Bangladesh"
+                },
+                {
+                    img: team10,
+                    name: "Ward G",
+                    alt: "Ward",
+                    position: "Programmer",
+                    place: "Amman, Jordan"
+                }                                                      
+            ]
+        }
+    },
+}
+</script>
