@@ -27,10 +27,10 @@
                     <div class="introduction__right">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="img-fluid float-end mb-2">
+                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="img-fluid float-end mb-4">
                             </div>
                             <div class="col-lg-6">
-                                <img src="~assets/svg/intro-2.svg" alt="Intro 2" class="img-fluid mb-2">
+                                <img src="~assets/svg/intro-2.svg" alt="Intro 2" class="img-fluid mb-4">
                             </div>
                         </div>
                         <div class="row">
