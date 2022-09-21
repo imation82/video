@@ -13,7 +13,7 @@
                     <VueSlickCarousel v-bind="slickOptions">
                         <div v-for="(testimonials, i) in testimonial" :key="i" class="testimonial__slider">
                             <p class="text-center">{{ testimonials.comments }}</p>
-                            <div class="testimonial__content d-flex justify-content-center align-items-center">
+                            <div class="testimonial__content d-flex justify-content-center">
                                 <div>
                                     <img :src="testimonials.clientImg" :alt="testimonials.alt"/>
                                 </div>
