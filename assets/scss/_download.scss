@@ -1,0 +1,27 @@
+.download {
+    position: relative;
+    background-color: $blue-3;
+    @include padding(100px, 0px, 100px, 0px);
+    &__headline {
+        max-width: 593px;
+        h3 {
+            @include font($font-size-2, $font-weight-3, $line-height-7);
+            color: $text-white;
+        }
+    } 
+    &::before {
+        content: url(~/assets/svg/abstract-left.svg);
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+    &::after {
+        content: url(~/assets/svg/abstract-right.svg);
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+    &__apps {
+        margin-top: 50px;
+    }       
+}

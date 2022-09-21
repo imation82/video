@@ -5,10 +5,10 @@
                 <div class="col-lg-5 offset-lg-1">
                     <div class="row">
                         <div class="col-lg-6">
-                            <img src="~assets/svg/connect-1.svg" alt="Connect" class="d-block mx-auto">
+                            <img src="~assets/svg/connect-1.svg" alt="Connect" class="img-fluid d-block mx-auto">
                         </div>
                         <div class="col-lg-6">
-                            <img src="~assets/svg/connect-2.svg" alt="Connect" class="d-block mx-auto">
+                            <img src="~assets/svg/connect-2.svg" alt="Connect" class="img-fluid d-block mx-auto">
                         </div>
                     </div>
                 </div>

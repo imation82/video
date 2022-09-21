@@ -3,7 +3,11 @@
     <!-- <NavBar/> -->
     <Introduction/> 
     <History/>
-    <Connect/>   
+    <Connect/>
+    <Discover/>   
+    <Download/>
+    <Testimonial/>
+    <Team/>
   </section>
 </template>
 
@@ -13,6 +17,10 @@
 import Introduction from '~/components/Introduction';
 import History from '~/components/History';
 import Connect from '~/components/Connect';
+import Discover from '~/components/Discover';
+import Download from '~/components/Download';
+import Testimonial from '~/components/Testimonial';
+import Team from '~/components/Team';
 
 export default {
     name: "Index",
@@ -20,7 +28,10 @@ export default {
       // NavBar,
       Introduction,
       History,
-      Connect
+      Connect,
+      Discover,
+      Download,
+      Testimonial
   }
 }
 </script>

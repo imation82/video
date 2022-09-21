@@ -11,12 +11,12 @@
                             <ul class="list-inline">
                                 <li class="list-inline-item introduction__left--apps__ios">
                                     <a href="#">
-                                        <img src="~assets/svg/ios.svg" alt="iOS">
+                                        <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="#">
-                                        <img src="~assets/svg/google-play.svg" alt="Google Play Store">
+                                        <img src="~assets/svg/google-play.svg" class="img-fluid" alt="Google Play Store">
                                     </a>                                    
                                 </li>
                             </ul>
@@ -27,18 +27,18 @@
                     <div class="introduction__right">
                         <div class="row">
                             <div class="col-lg-6">
-                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="float-end mb-2">
+                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="img-fluid float-end mb-2">
                             </div>
                             <div class="col-lg-6">
-                                <img src="~assets/svg/intro-2.svg" alt="Intro 2" class="mb-2">
+                                <img src="~assets/svg/intro-2.svg" alt="Intro 2" class="img-fluid mb-2">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-6">
-                                <img src="~assets/svg/intro-3.svg" alt="Intro 3" class="float-end">
+                                <img src="~assets/svg/intro-3.svg" alt="Intro 3" class="img-fluid float-end">
                             </div>
                             <div class="col-lg-6">
-                                <img src="~assets/svg/intro-4.svg" alt="Intro 4">
+                                <img src="~assets/svg/intro-4.svg" alt="Intro 4" class="img-fluid">
                             </div>
                         </div>                        
                     </div>
