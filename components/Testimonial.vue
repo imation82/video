@@ -8,24 +8,20 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-11 offset-lg-1">
-                    <VueSlickCarousel v-bind="slickOptions">
-                        <div v-for="(testimonials, i) in testimonial" :key="i" class="testimonial__slider">
-                            <p class="text-center">{{ testimonials.comments }}</p>
-                            <div class="testimonial__content d-flex justify-content-center">
-                                <div>
-                                    <img :src="testimonials.clientImg" :alt="testimonials.alt"/>
-                                </div>
-                                <div>
-                                    <h4>{{ testimonials.name }}</h4>
-                                    <span class="testimonial__content--rating">{{ testimonials.rating }}</span>
-                                </div>
-                            </div>
+            <VueSlickCarousel v-bind="slickOptions">
+                <div v-for="(testimonials, i) in testimonial" :key="i" class="testimonial__slider">
+                    <p class="text-center">{{ testimonials.comments }}</p>
+                    <div class="testimonial__content d-flex justify-content-center">
+                        <div>
+                            <img :src="testimonials.clientImg" :alt="testimonials.alt"/>
                         </div>
-                    </VueSlickCarousel>                    
+                        <div>
+                            <h4>{{ testimonials.name }}</h4>
+                            <span class="testimonial__content--rating">{{ testimonials.rating }}</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </VueSlickCarousel> 
         </div>
     </section>
 </template>
@@ -45,7 +41,29 @@ export default {
       slickOptions: {
         slidesToShow: 3,
         arrows: false,
-        dots: true
+        dots: true,
+        adaptiveHeight: true,
+        centerPadding: '0',
+        responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3,
+              },
+            },            
+            {
+              breakpoint: 1199,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 1,
+              },
+            }                        
+        ]           
       },
       testimonial: [
         {

@@ -1,7 +1,7 @@
 .testimonial {
     position: relative;
     background-color: $blue-1;
-    @include padding(100px, 0px, 160px, 0px);
+    @include padding(100px, 0px, 100px, 0px);
     &__headline {
         max-width: 434px;
         h3 {
@@ -10,8 +10,9 @@
         }
     } 
     &__slider {
-        max-width: 367px;
-        margin-top: 90px;
+        // max-width: 367px;
+        display: block !important;
+        margin: 90px auto;
         background: #fff;
         padding: 24px;
         border-radius: 10px;
@@ -39,8 +40,15 @@
 }
 
 .slick-dots {
-    bottom: -60px !important;
-    left: -10px;
+    bottom: 25px !important;
+}
+
+.slick-list {
+    margin: 0 -16px !important;
+}
+  
+.slick-slide > div {
+    padding: 0 16px !important;
 }
 
 .slick-dots li.slick-active button:before {
