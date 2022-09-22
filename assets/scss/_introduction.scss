@@ -6,6 +6,48 @@
         @include padding(100px, 0px, 100px, 0px);
     }    
     @include padding(70px, 0px, 70px, 0px);
+    &__bottom {
+        &--left {
+            img {
+                position: absolute;
+                left: 0;
+                bottom: 0;  
+                width: 165px;              
+            }
+        }
+    }
+    &__top {
+        &--right {
+            img {
+                position: absolute;
+                right: 0;
+                top: -60px; 
+                width: 165px;               
+            }
+        }
+    }    
+    @include media ("md") {
+        &__bottom {
+            &--left {
+                img {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;  
+                    width: auto;              
+                }
+            }
+        }
+        &__top {
+            &--right {
+                img {
+                    position: absolute;
+                    right: 0;
+                    top: -60px;     
+                    width: auto;           
+                }
+            }
+        }        
+    }
     &__left {
         &--apps {
             img {

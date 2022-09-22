@@ -1,5 +1,11 @@
 <template>
     <section class="introduction">
+        <div class="introduction__bottom--left">
+            <img src="~assets/svg/bottom-left.svg" alt="Ornaments Bottom Left">
+        </div>
+        <div class="introduction__top--right">
+            <img src="~assets/svg/top-right.svg" alt="Ornaments Top Right">
+        </div>
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-8">
