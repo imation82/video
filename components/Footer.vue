@@ -41,8 +41,8 @@
                 </div>
                 <div class="col-lg-4 offset-lg-2">
                     <div class="footer__apps">
-                        <ul class="list-inline text-center">
-                                <li class="list-inline-item introduction__left--apps__ios">
+                        <ul class="list-inline mb-0">
+                                <li class="list-inline-item footer__apps--ios">
                                     <a href="#">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
                                     </a>

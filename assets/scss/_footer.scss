@@ -1,6 +1,9 @@
 
 .footer {
-    padding: 165px 0px;
+    @include media("md") {
+        @include padding(165px, 0px, 165px, 0px);
+    }    
+    @include padding(70px, 0px, 70px, 0px);
     background: $blue-4;
     h3 {
         @include font($font-size-6, $font-weight-1, $line-height-4);
@@ -30,5 +33,11 @@
     }
     &__apps {
         margin-top: 30px;
+        &--ios {            
+            @include media("md") {
+                margin-right: 30px !important;
+            }
+        }
     }   
 }
+
