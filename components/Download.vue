@@ -6,7 +6,7 @@
                     <div class="download__headline d-block mx-auto text-center">
                         <h3>Download the app now and try it out</h3>         
                         <div class="download__apps">
-                            <ul class="list-inline">
+                            <ul class="list-inline d-flex justify-content-center">
                                 <li class="list-inline-item introduction__left--apps__ios">
                                     <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">

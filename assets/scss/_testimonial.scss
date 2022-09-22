@@ -10,7 +10,6 @@
         @include media("lg") {
             h3 {
                 @include font($font-size-2 !important, $font-weight-3 !important, $line-height-7 !important);
-                color: $text-white;
                 margin-bottom: 90px !important;
             }            
         }

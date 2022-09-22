@@ -24,15 +24,12 @@
     }
     @include media("lg") {
         h2 {
-            color: $text-orange;
             @include font($font-size-4 !important,$font-weight-1 !important,$line-height-2 !important);
         } 
         h1 {
-            color: $text-white;
             @include font($font-size-1 !important,$font-weight-4 !important,$line-height-7 !important);
         } 
         p {
-            color: $text-white;
             @include font($base-font-size !important,$font-weight-1 !important,$line-height-3 !important);
         }                        
     }
