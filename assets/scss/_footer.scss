@@ -41,7 +41,8 @@
                 width: auto;
             }
         }
-        &--ios {            
+        &--ios { 
+            margin-right: 16px !important;           
             @include media("md") {
                 margin-right: 30px !important;
             }

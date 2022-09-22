@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="footer__apps">
-                        <ul class="list-inline mb-0 float-start float-lg-end">
+                        <ul class="list-inline mb-0 float-start float-lg-end d-flex">
                                 <li class="list-inline-item footer__apps--ios">
                                     <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
