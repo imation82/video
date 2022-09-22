@@ -44,6 +44,7 @@ export default {
         dots: true,
         adaptiveHeight: true,
         centerPadding: '0',
+        draggable: false,
         responsive: [
             {
               breakpoint: 1200,
