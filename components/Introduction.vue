@@ -8,14 +8,14 @@
                         <h1>Secure Life Stories and Family History for Future Generations</h1>
                         <p class="mt-3">Video Time Capsule helps you to secure and share your family's history.</p>
                         <div class="introduction__left--apps">
-                            <ul class="list-inline text-center text-md-left">
+                            <ul class="list-inline text-center text-md-start">
                                 <li class="list-inline-item introduction__left--apps__ios">
-                                    <a href="#">
+                                    <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://play.google.com/store/apps/details?id=com.videotc.vtc_mobile_app_v2" target="_blank">
                                         <img src="~assets/svg/google-play.svg" class="img-fluid" alt="Google Play Store">
                                     </a>                                    
                                 </li>
