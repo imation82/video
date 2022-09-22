@@ -50,7 +50,7 @@
                     </div>
                     <div class="introduction__left--apps d-block d-lg-none">
                         <ul class="list-inline text-lg-start mb-0 d-flex justify-content-center">
-                            <li class="list-inline-item introduction__left--apps__ios">
+                            <li class="list-inline-item introduction__left--apps__ios introduction__left--apps_bottom">
                                 <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                     <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
                                 </a>

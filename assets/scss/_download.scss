@@ -29,8 +29,9 @@
                 width: auto;
             }
         }
-        &--ios {            
-            @include media("md") {
+        &--ios {        
+            margin-right: 16px !important;            
+            @include media("lg") {
                 margin-right: 30px !important;
             }
         }
