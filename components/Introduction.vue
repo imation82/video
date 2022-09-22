@@ -15,7 +15,7 @@
                         <p class="mt-3">Video Time Capsule helps you to secure and share your family's history.</p>
                         <div class="introduction__left--apps d-none d-lg-block">
                             <ul class="list-inline text-center text-md-start">
-                                <li class="list-inline-item introduction__left--apps__ios">
+                                <li class="list-inline-item introduction__left--apps__ios introduction__left--apps_top">
                                     <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
                                     </a>
