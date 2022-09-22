@@ -30,7 +30,7 @@
                     </div>                    
                 </div>
                 <div class="col-lg-4">
-                    <div class="introduction__right">
+                    <div class="introduction__right float-lg-end">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-6">
                                 <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="d-block mx-auto float-end img-fluid float-lg-end mb-4">

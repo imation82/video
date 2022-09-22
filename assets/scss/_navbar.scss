@@ -1,4 +1,23 @@
 
-.main-menu {
-    
+.menu {
+    padding: 16px 0px !important;
+    background: $text-white;
+    position: relative;
+    z-index: 99999;
+    &__list {
+        li.nav-item {
+            margin-right: 50px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }        
+    }
+    .nav-link {
+        @include font($base-font-size, $font-weight-1, $line-height-3);
+        color: #000;
+        &:hover,
+        &:focus {
+            color: #437FC2;
+        }
+    }
 }

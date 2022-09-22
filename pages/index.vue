@@ -1,6 +1,6 @@
 <template>
   <section>
-    <!-- <NavBar/> -->
+    <NavBar/>
     <Introduction/> 
     <History/>
     <Connect/>
@@ -14,7 +14,7 @@
 
 <script>
 
-// import NavBar from '~/components/NavBar';
+import NavBar from '~/components/NavBar';
 import Introduction from '~/components/Introduction';
 import History from '~/components/History';
 import Connect from '~/components/Connect';
@@ -27,7 +27,7 @@ import Footer from "~/components/Footer";
 export default {
     name: "Index",
     components: {
-      // NavBar,
+      NavBar,
       Introduction,
       History,
       Connect,
