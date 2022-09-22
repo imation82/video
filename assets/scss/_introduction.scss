@@ -9,19 +9,19 @@
     &__left {
         &--apps {
             img {
-                width: 150px;
+                width: 170px;
             }
+            // @include media("md") {
+            //     img {
+            //         width: 170px;
+            //     }
+            // }
             @include media("lg") {
                 img {
                     width: auto;
                 }
             }                        
             margin-top: 40px;
-            @include media("md") {
-                &__ios {
-                    margin-right: 30px !important;
-                }                
-            }
         }
     }
     &__left {
