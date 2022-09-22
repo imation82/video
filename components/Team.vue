@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3" v-for="(teams, i) in team" :key="i">
+                <div class="col-lg-3 d-none d-sm-block" v-for="(teams, i) in team" :key="i">
                     <div class="team__profile mb-4">
                         <img :src="teams.img" :alt="teams.alt" class="img-fluid d-block mx-auto w-100">
                         <div class="team__profile--content text-center">
@@ -20,11 +20,26 @@
                     </div>
                 </div>
             </div>
+            <VueSlickCarousel v-bind="slickOptions" class="d-block d-sm-none">
+                <div class="col-lg-3" v-for="(teams, i) in team" :key="i">
+                    <div class="team__profile mb-4">
+                        <img :src="teams.img" :alt="teams.alt" class="img-fluid d-block mx-auto w-100">
+                        <div class="team__profile--content text-center">
+                            <h4>{{ teams.name }}</h4>
+                            <h5>{{ teams.position }}</h5>
+                            <span>{{ teams.place }}</span>
+                        </div>
+                    </div>
+                </div>
+            </VueSlickCarousel>            
         </div>
     </section>
+    
 </template>
 
 <script>
+
+import VueSlickCarousel from 'vue-slick-carousel';    
 
 import team01 from "~/assets/images/team/nicholas.jpg";
 import team02 from "~/assets/images/team/samantha.jpg";
@@ -39,8 +54,27 @@ import team10 from "~/assets/images/team/ward.jpg";
 
 
 export default {
+    components: {
+        VueSlickCarousel
+    },
     data() {
         return {
+        slickOptions: {
+        slidesToShow: 3,
+        arrows: false,
+        dots: true,
+        adaptiveHeight: true,
+        centerPadding: '0',
+        draggable: false,
+        responsive: [           
+            {
+              breakpoint: 575,
+              settings: {
+                slidesToShow: 2,
+              },
+            }                        
+        ]           
+    },            
             team: [
                 {
                     img: team01,
