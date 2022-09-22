@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 d-none d-sm-block" v-for="(teams, i) in team" :key="i">
+                <div class="col-lg-3 d-none d-lg-block" v-for="(teams, i) in team" :key="i">
                     <div class="team__profile mb-4">
                         <img :src="teams.img" :alt="teams.alt" class="img-fluid d-block mx-auto w-100">
                         <div class="team__profile--content text-center">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <VueSlickCarousel v-bind="slickOptions" class="d-block d-sm-none">
+            <VueSlickCarousel v-bind="slickOptions" class="d-block d-lg-none">
                 <div class="col-lg-3" v-for="(teams, i) in team" :key="i">
                     <div class="team__profile mb-4">
                         <img :src="teams.img" :alt="teams.alt" class="img-fluid d-block mx-auto w-100">
@@ -68,11 +68,17 @@ export default {
         draggable: false,
         responsive: [           
             {
-              breakpoint: 575,
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 767,
               settings: {
                 slidesToShow: 2,
               },
-            }                        
+            }                                      
         ]           
     },            
             team: [

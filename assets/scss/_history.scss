@@ -1,19 +1,33 @@
 
 .history {
     background-color: $blue-2;
-    @include padding(100px, 0px, 100px, 0px);
+    @include media("lg") {
+        @include padding(100px, 0px, 100px, 0px);
+    }    
+    @include padding(70px, 0px, 70px, 0px);
     position: relative;
     &__headline {
         max-width: 763px;
+        @include media("lg") {
+            h3 {
+                @include font($font-size-2 !important, $font-weight-3 !important, $line-height-7 !important);
+                color: $text-white;
+                span {
+                    font-family: $font-family-2;
+                    @include font($font-size-2 !important, $font-weight-2 !important, $line-height-7 !important);
+                    color: $text-orange;
+                }
+            }            
+        }
         h3 {
-            @include font($font-size-2, $font-weight-3, $line-height-7);
+            @include font($font-size-3, $font-weight-3, $line-height-3);
             color: $text-white;
             span {
                 font-family: $font-family-2;
-                @include font($font-size-2, $font-weight-2, $line-height-7);
+                @include font($font-size-3, $font-weight-2, $line-height-5);
                 color: $text-orange;
             }
-        }
+        }        
     }
     &__capsule {
         @include padding(75px, 0px, 0px, 0px);

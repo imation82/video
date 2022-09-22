@@ -8,7 +8,7 @@
                         <h1>Secure Life Stories and Family History for Future Generations</h1>
                         <p class="mt-3">Video Time Capsule helps you to secure and share your family's history.</p>
                         <div class="introduction__left--apps">
-                            <ul class="list-inline">
+                            <ul class="list-inline text-center text-md-left">
                                 <li class="list-inline-item introduction__left--apps__ios">
                                     <a href="#">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
@@ -26,18 +26,18 @@
                 <div class="col-lg-4">
                     <div class="introduction__right">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="img-fluid float-end mb-4">
+                            <div class="col-lg-6 col-6">
+                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="img-fluid float-lg-end mb-4">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6">
                                 <img src="~assets/svg/intro-2.svg" alt="Intro 2" class="img-fluid mb-4">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6">
-                                <img src="~assets/svg/intro-3.svg" alt="Intro 3" class="img-fluid float-end">
+                            <div class="col-lg-6 col-6">
+                                <img src="~assets/svg/intro-3.svg" alt="Intro 3" class="img-fluid float-lg-end">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-6">
                                 <img src="~assets/svg/intro-4.svg" alt="Intro 4" class="img-fluid">
                             </div>
                         </div>                        

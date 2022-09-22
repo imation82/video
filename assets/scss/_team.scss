@@ -1,13 +1,23 @@
 .team {
     background-color: $blue-3;
-    @include padding(100px, 0px, 100px, 0px);
+    @include media("lg") {
+        @include padding(100px, 0px, 100px, 0px);
+    }    
+    @include padding(70px, 0px, 95px, 0px);
     &__headline {
         max-width: 455px;
-        h3 {
-            @include font($font-size-2, $font-weight-3, $line-height-7);
-            color: $text-white;
-            margin-bottom: 55px;
+        @include media("lg") {
+            h3 {
+                @include font($font-size-2 !important, $font-weight-3 !important, $line-height-7 !important);
+                color: $text-white;
+                margin-bottom: 55px !important;
+            }            
         }
+        h3 {
+            @include font($font-size-3, $font-weight-3, $line-height-7);
+            color: $text-white;
+            margin-bottom: 20px;
+        }        
     } 
     &__profile {
         background-color: #fff;
@@ -20,24 +30,39 @@
         &--content {
             padding-bottom: 25px;
             h4 {
-                @include font($font-size-3, $font-weight-2, $line-height-5);
-                margin-bottom: 0
+                @include font($font-size-6, $font-weight-2, $line-height-3);
+                margin-bottom: 0;
             }
             h5 {
-                @include font($base-font-size, $font-weight-1, $line-height-4);
+                @include font($font-size-7, $font-weight-1, $line-height-4);
                 color: #4F4F4F;
-                margin-bottom: 0
+                margin-bottom: 0;
             }
             span {
-                @include font($base-font-size, $font-weight-1, $line-height-4);
+                @include font($font-size-8, $font-weight-1, $line-height-4);
                 color: #4F4F4F;                
-            }
+            } 
+            @include media("lg") {
+                h4 {
+                    @include font($font-size-3, $font-weight-2, $line-height-5);
+                    margin-bottom: 0;
+                }
+                h5 {
+                    @include font($base-font-size, $font-weight-1, $line-height-4);
+                    color: #4F4F4F;
+                    margin-bottom: 0;
+                }
+                span {
+                    @include font($base-font-size, $font-weight-1, $line-height-4);
+                    color: #4F4F4F;                
+                }                
+            }                       
         }
     }   
 }
 
-.slick-dots {
-    bottom: 25px !important;
+.team .slick-dots {
+    bottom: -25px !important;
 }
 
 .slick-list {
