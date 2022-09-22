@@ -11,11 +11,6 @@
             img {
                 width: 170px;
             }
-            // @include media("md") {
-            //     img {
-            //         width: 170px;
-            //     }
-            // }
             @include media("lg") {
                 img {
                     width: auto;
