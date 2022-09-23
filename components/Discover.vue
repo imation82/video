@@ -42,7 +42,7 @@ export default {
         dots: true,
         draggable: false,
         centerMode: true,
-        autoplay: true,
+        autoplay: false,
         slidesToScrol: 1,
         centerPadding: "0px",
         responsive: [         
