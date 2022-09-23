@@ -3,9 +3,9 @@
     position: relative;
     background-color: $blue-1;
     @include media("lg") {
-        @include padding(100px, 0px, 100px, 0px);
+        @include padding(190px, 0px, 100px, 0px);
     }    
-    @include padding(70px, 0px, 70px, 0px);
+    @include padding(160px, 0px, 70px, 0px);
     &__bottom {
         &--left {
             img {
