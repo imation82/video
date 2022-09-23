@@ -43,8 +43,10 @@ export default {
         arrows: false,
         dots: true,
         adaptiveHeight: true,
-        centerPadding: '0',
+        centerPadding: '0px',
         draggable: false,
+        autoplay: true,
+        slidesToScrol: 1,
         responsive: [
             {
               breakpoint: 1200,
