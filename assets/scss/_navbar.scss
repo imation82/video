@@ -32,5 +32,23 @@
             margin: 5px;
             transition: all .5s ease-out;            
         }
+        &--show {
+            position: fixed;
+            background: $blue-1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            @include padding(45px, 45px, 45px, 45px);
+            h3 {
+                color: $text-white;
+                margin-bottom: 60px;
+            }
+            .nav-link {
+                @include font($font-size-4, $font-weight-2, $line-height-5);
+                color: $text-white;
+            }
+
+        }
     }
 }
