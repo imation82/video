@@ -5,14 +5,8 @@
                 <div class="col-lg-3">
                     <h3>Company</h3>
                     <ul class="footer__links">
-                        <li>
-                            <a href="#">Contact us</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms of use</a>
-                        </li>
-                        <li>
-                            <a href="#">Privacy</a>
+                        <li v-for="(footerMenus, i) in footerMenu" :key="i">
+                            <nuxt-link :to="footerMenus.link">{{ footerMenus.name }}</nuxt-link>
                         </li>
                     </ul>
                 </div>
@@ -59,3 +53,28 @@
         </div>
     </section>
 </template>
+
+<script>
+
+export default {
+    data () {
+        return {
+            footerMenu: [
+                {
+                    link: "/",
+                    name: "Contact us"
+                },
+                {
+                    link: "/",
+                    name: "Terms of use"
+                },
+                {
+                    link: "/",
+                    name: "Privacy"
+                }
+            ]
+        }
+    }
+}
+
+</script>
