@@ -7,7 +7,7 @@
             <div class="menu__desktop d-none d-lg-block">
                 <ul class="menu__list navbar-nav ms-auto">
                     <li v-for="(menus, i) in menu" :key="i" class="nav-item">
-                        <a class="nav-link" href="#">{{ menus.name }}</a>
+                        <nuxt-link class="nav-link" :to="menus.link">{{ menus.name }}</nuxt-link>
                     </li>
                 </ul>                
             </div>          
@@ -22,9 +22,9 @@
                         <h3>VideoTC</h3>
                         <ul class="navbar-nav">
                             <li v-for="(menus, i) in menu" :key="i" class="nav-item">
-                                <a class="nav-link d-flex align-items-center" href="#">
+                                <nuxt-link class="nav-link d-flex align-items-center" :to="menus.link">
                                     <img :src="menus.menu" :alt="menus.alt" class="me-4">{{ menus.name }}
-                                </a>
+                                </nuxt-link>
                             </li>                          
                         </ul>
                     </div>
@@ -52,22 +52,26 @@ export default {
                 {
                     menu: navHome,
                     name: "Home",
-                    alt: "Home"
+                    alt: "Home",
+                    link: "/"
                 },
                 {
                     menu: navFeatures,
                     name: "Features",
-                    alt: "Features"
+                    alt: "Features",
+                    link: "/"
                 },
                 {
                     menu: navTestimonial,
                     name: "Testimonial",
-                    alt: "Testimonial"
+                    alt: "Testimonial",
+                    link: "/"
                 },
                 {
                     menu: navAbout,
                     name: "About",
-                    alt: "About"
+                    alt: "About",
+                    link: "/"
                 }
             ]
         }
