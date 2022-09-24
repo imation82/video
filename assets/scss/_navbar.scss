@@ -41,6 +41,7 @@
             left: 0;
             @include padding(45px, 45px, 45px, 45px);
             h3 {
+                @include font($font-size-3, $font-weight-1, $line-height-4);
                 color: $text-white;
                 margin-bottom: 60px;
             }
