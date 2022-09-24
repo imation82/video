@@ -1,10 +1,37 @@
 .download {
     position: relative;
+    z-index: 20;
     background-color: $blue-3;
     @include media("lg") {
         @include padding(100px, 0px, 100px, 0px);
     }    
     @include padding(50px, 0px, 50px, 0px);
+    @include media("md") {
+        &__bottom {
+            &--left {
+                img {
+                    @include media("md") {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        z-index: -10;
+                    }                
+                }
+            }
+            &--right {
+                img {
+                    @include media("md") {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        bottom: 0;
+                        z-index: -10;
+                    }                
+                }
+            }        
+        }        
+    }
     &__headline {
         max-width: 593px;
         @include media("lg") {
@@ -35,5 +62,5 @@
                 margin-right: 30px !important;
             }
         }
-    }      
+    } 
 }

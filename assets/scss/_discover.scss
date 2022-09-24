@@ -1,5 +1,7 @@
 
 .discover {
+    position: relative;
+    z-index: 30;
     background-color: $blue-2;
     @include media("lg") {
         @include padding(100px, 0px, 150px, 0px);

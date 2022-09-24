@@ -1,5 +1,11 @@
 <template>
     <section class="download">
+        <div class="download__bottom--left">
+            <img src="~assets/images/shape-left.png" alt="Download Ornaments" class="d-none d-md-block">
+        </div>
+        <div class="download__bottom--right">
+            <img src="~assets/images/shape-right.png" alt="Download Ornaments" class="d-none d-md-block">
+        </div>        
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

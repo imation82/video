@@ -1,5 +1,6 @@
 .testimonial {
     position: relative;
+    z-index: 30;
     background-color: $blue-1;
     @include media("lg") {
         @include padding(100px, 0px, 165px, 0px);
