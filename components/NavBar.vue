@@ -11,12 +11,13 @@
                     </li>
                 </ul>                
             </div>          
-            <div @click="isShow = true" class="menu__mobile d-block d-lg-none">
+            <div @click="isShow = !isShow" class="menu__mobile d-block d-lg-none">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
-            <div v-show="isShow" class="menu__mobile--show">
+            <transition name="slide-fade">
+            <div v-if="isShow" class="menu__mobile--show">
                 <div class="d-flex justify-content-between">
                     <div>
                         <h3>VideoTC</h3>
@@ -29,10 +30,11 @@
                         </ul>
                     </div>
                     <div>
-                        <img src="~assets/svg/cross.svg" alt="Close">
+                        <img @click="close" src="~assets/svg/cross.svg" alt="Close">
                     </div>
                 </div>
-            </div>             
+            </div>  
+            </transition>           
         </div>               
     </nav>
 </template>
@@ -75,6 +77,11 @@ export default {
                 }
             ]
         }
+    },
+    methods: {
+        close() {
+            this.isShow = false;
+        },
     }
 }
 
