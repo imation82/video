@@ -23,15 +23,28 @@ export default {
         type: 'image/x-icon', 
         href: '/favicon.ico' 
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'
-      }
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'
+      // },
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'
+      // }
     ]
+  },
+
+  // Google Fonts: https://google-fonts.nuxtjs.org/
+  googleFonts: {
+    display: 'swap',
+    families: {
+      Poppins: {
+        wght: [400,500,600,700]
+      },
+      Roboto: {
+        wght: [500]
+      }
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -57,7 +70,8 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxt/postcss8'
+    '@nuxt/postcss8',
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
