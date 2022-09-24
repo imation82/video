@@ -47,6 +47,8 @@
     }     
 }
 
+// ===== Slider custom style ===== //
+
 .testimonial .slick-dots {
     bottom: -50px !important;
     @include media("lg") {
@@ -55,11 +57,11 @@
 }
 
 .slick-list {
-    margin: 0 -16px !important;
+    margin: 0 -10px !important;
 }
   
 .slick-slide > div {
-    padding: 0 16px !important;
+    padding: 0 10px !important;
 }
 
 .slick-dots li.slick-active button:before {
@@ -80,3 +82,4 @@
     border-radius: 10px !important;
 }
 
+// ===== END: Slider custom style ===== //

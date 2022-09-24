@@ -26,11 +26,11 @@
     }    
 }
 
+// ===== Slider custom style ===== //
+
 .discover__slider .slick-dots {
     bottom: -50px !important;
 }
-
-
 
 .discover__slider .slick-slide {
     transition: all 0.3s ease;
@@ -45,3 +45,5 @@
     opacity: 1;
     transform: scale(1);
 }
+
+// ===== END: Slider custom style ===== //

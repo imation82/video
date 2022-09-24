@@ -60,16 +60,18 @@
     }   
 }
 
+// ===== Slider custom style ===== //
+
 .team .slick-dots {
     bottom: -25px !important;
 }
 
 .slick-list {
-    margin: 0 -16px !important;
+    margin: 0 -10px !important;
 }
   
 .slick-slide > div {
-    padding: 0 16px !important;
+    padding: 0 10px !important;
 }
 
 .slick-dots li.slick-active button:before {
@@ -89,3 +91,5 @@
     height: 10px !important;
     border-radius: 10px !important;
 }
+
+// ===== END: Slider custom style ===== //
