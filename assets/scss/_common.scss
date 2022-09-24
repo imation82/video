@@ -1,4 +1,25 @@
+// ===== Scrollbar width ===== //
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+// ===== Scrollbar track ===== //
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+// ===== Scrollbar handle ===== //
+::-webkit-scrollbar-thumb {
+    background: #6747B0;
+}
+  
+// ===== Scrollbar handle on hover ==== //
+::-webkit-scrollbar-thumb:hover {
+    background: #437FC2;
+}
 
+
+// ===== Download app image swap ===== //
 .swap {
     img {
         &:last-child {
