@@ -1,9 +1,9 @@
 <template>
     <nav class="menu navbar navbar-expand-lg">
         <div class="container">
-            <a href="#">
+            <nuxt-link to="/">
                 <img src="~assets/images/logo.png" alt="Logo">
-            </a>
+            </nuxt-link>
             <div class="menu__desktop d-none d-lg-block">
                 <ul class="menu__list navbar-nav ms-auto">
                     <li v-for="(menus, i) in menu" :key="i" class="nav-item">
