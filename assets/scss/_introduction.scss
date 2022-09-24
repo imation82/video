@@ -1,6 +1,7 @@
 
 .introduction {
     position: relative;
+    z-index: 50;
     background-color: $blue-1;
     @include media("lg") {
         @include padding(190px, 0px, 100px, 0px);
@@ -12,7 +13,8 @@
                 position: absolute;
                 left: 0;
                 bottom: 0;  
-                width: 165px;              
+                width: 165px;  
+                z-index: -20;            
             }
         }
     }
@@ -22,7 +24,8 @@
                 position: absolute;
                 right: 0;
                 top: -60px; 
-                width: 165px;               
+                width: 165px; 
+                z-index: -20;              
             }
         }
     }    

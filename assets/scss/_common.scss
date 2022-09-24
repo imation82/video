@@ -1,0 +1,18 @@
+
+.swap {
+    img {
+        &:last-child {
+            display: none;
+        }
+    }
+    &:hover {
+        img {
+            &:last-child {
+                display: block;
+            }
+            &:first-child {
+                display: none;
+            }
+        }
+    }
+}

@@ -14,15 +14,17 @@
                         <h1>Secure Life Stories and Family History for Future Generations</h1>
                         <p class="mt-3">Video Time Capsule helps you to secure and share your family's history.</p>
                         <div class="introduction__left--apps d-none d-lg-block">
-                            <ul class="list-inline text-center text-md-start">
+                            <ul class="list-inline text-center text-md-start d-flex">
                                 <li class="list-inline-item introduction__left--apps__ios introduction__left--apps_top">
-                                    <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
+                                    <a class="swap" href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                         <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
+                                        <img src="~assets/svg/ios-orange.svg" class="img-fluid" alt="iOS">
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://play.google.com/store/apps/details?id=com.videotc.vtc_mobile_app_v2" target="_blank">
+                                    <a class="swap" href="https://play.google.com/store/apps/details?id=com.videotc.vtc_mobile_app_v2" target="_blank">
                                         <img src="~assets/svg/google-play.svg" class="img-fluid" alt="Google Play Store">
+                                        <img src="~assets/svg/google-play-orange.svg" class="img-fluid" alt="Google Play Store">
                                     </a>                                    
                                 </li>
                             </ul>
@@ -51,13 +53,15 @@
                     <div class="introduction__left--apps d-block d-lg-none">
                         <ul class="list-inline text-lg-start mb-0 d-flex justify-content-center">
                             <li class="list-inline-item introduction__left--apps__ios introduction__left--apps_bottom">
-                                <a href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
+                                <a class="swap" href="https://apps.apple.com/us/app/videotc/id1554817576" target="_blank">
                                     <img src="~assets/svg/ios.svg" class="img-fluid" alt="iOS">
+                                    <img src="~assets/svg/ios-orange.svg" class="img-fluid" alt="iOS">
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://play.google.com/store/apps/details?id=com.videotc.vtc_mobile_app_v2" target="_blank">
+                                <a class="swap" href="https://play.google.com/store/apps/details?id=com.videotc.vtc_mobile_app_v2" target="_blank">
                                     <img src="~assets/svg/google-play.svg" class="img-fluid" alt="Google Play Store">
+                                    <img src="~assets/svg/google-play-orange.svg" class="img-fluid" alt="Google Play Store">
                                 </a>                                    
                             </li>
                         </ul>
