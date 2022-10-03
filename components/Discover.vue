@@ -40,7 +40,7 @@ export default {
         slidesToShow: 3,
         arrows: false,
         dots: true,
-        draggable: false,
+        draggable: true,
         centerMode: true,
         autoplay: false,
         slidesToScrol: 1,

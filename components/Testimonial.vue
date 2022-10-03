@@ -44,8 +44,8 @@ export default {
         dots: true,
         adaptiveHeight: true,
         centerPadding: '0px',
-        draggable: false,
-        autoplay: true,
+        draggable: true,
+        autoplay: false,
         slidesToScrol: 1,
         responsive: [
             {
