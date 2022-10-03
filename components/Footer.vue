@@ -16,17 +16,17 @@
                     <div class="footer__socials">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <a href="#" target="_blank">
+                                <a href="https://www.facebook.com/videotimecap" target="_blank">
                                     <img src="~assets/svg/facebook.svg" alt="Facebook">
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" target="_blank">
+                                <a href="https://twitter.com/videotimecap" target="_blank">
                                     <img src="~assets/svg/twitter.svg" alt="Twitter">
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" target="_blank">
+                                <a href="https://www.linkedin.com/company/video-time-capsule-llc" target="_blank">
                                     <img src="~assets/svg/linkedin.svg" alt="Linkedin">
                                 </a>
                             </li>                                                        
