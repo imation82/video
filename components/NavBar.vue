@@ -2,9 +2,9 @@
     <section id="topmenu">
         <nav class="menu navbar navbar-expand-lg">
             <div class="container">
-                <nuxt-link to="/">
+                <a href="#topmenu" v-smooth-scroll>
                     <img src="~assets/images/logo.png" alt="Logo">
-                </nuxt-link>
+                </a>
                 <div class="menu__desktop d-none d-lg-block">
                     <ul class="menu__list navbar-nav ms-auto">
                         <li v-for="(menus, i) in menu" :key="i" class="nav-item">
