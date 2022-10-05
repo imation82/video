@@ -1,5 +1,5 @@
 <template>
-    <section class="history">
+    <section id="features" class="history">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

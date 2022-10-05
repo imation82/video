@@ -1,42 +1,44 @@
 <template>
-    <nav class="menu navbar navbar-expand-lg">
-        <div class="container">
-            <nuxt-link to="/">
-                <img src="~assets/images/logo.png" alt="Logo">
-            </nuxt-link>
-            <div class="menu__desktop d-none d-lg-block">
-                <ul class="menu__list navbar-nav ms-auto">
-                    <li v-for="(menus, i) in menu" :key="i" class="nav-item">
-                        <nuxt-link class="nav-link" :to="menus.link">{{ menus.name }}</nuxt-link>
-                    </li>
-                </ul>                
-            </div>          
-            <div @click="isShow = !isShow" class="menu__mobile d-block d-lg-none">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <transition name="slide-fade">
-            <div v-if="isShow" class="menu__mobile--show">
-                <div class="d-flex justify-content-between">
-                    <div>
-                        <h3>VideoTC</h3>
-                        <ul class="navbar-nav">
-                            <li v-for="(menus, i) in menu" :key="i" class="nav-item">
-                                <nuxt-link class="nav-link d-flex align-items-center" :to="menus.link">
-                                    <img :src="menus.menu" :alt="menus.alt" class="me-4">{{ menus.name }}
-                                </nuxt-link>
-                            </li>                          
-                        </ul>
-                    </div>
-                    <div>
-                        <img @click="close" src="~assets/svg/cross.svg" alt="Close">
-                    </div>
+    <section id="topmenu">
+        <nav class="menu navbar navbar-expand-lg">
+            <div class="container">
+                <nuxt-link to="/">
+                    <img src="~assets/images/logo.png" alt="Logo">
+                </nuxt-link>
+                <div class="menu__desktop d-none d-lg-block">
+                    <ul class="menu__list navbar-nav ms-auto">
+                        <li v-for="(menus, i) in menu" :key="i" class="nav-item">
+                            <a :href="menus.link" class="nav-link" v-smooth-scroll>{{ menus.name }}</a>
+                        </li>
+                    </ul>                
+                </div>          
+                <div @click="isShow = !isShow" class="menu__mobile d-block d-lg-none">
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
-            </div>  
-            </transition>           
-        </div>               
-    </nav>
+                <transition name="slide-fade">
+                <div v-if="isShow" class="menu__mobile--show">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h3>VideoTC</h3>
+                            <ul class="navbar-nav">
+                                <li v-for="(menus, i) in menu" :key="i" class="nav-item">
+                                    <a :href="menus.link" class="nav-link d-flex align-items-center" v-smooth-scroll>
+                                        <img :src="menus.menu" :alt="menus.alt" class="me-4">{{ menus.name }}
+                                    </a>
+                                </li>                          
+                            </ul>
+                        </div>
+                        <div>
+                            <img @click="close" src="~assets/svg/cross.svg" alt="Close">
+                        </div>
+                    </div>
+                </div>  
+                </transition>           
+            </div>               
+        </nav>        
+    </section>
 </template>
 
 <script>
@@ -55,25 +57,25 @@ export default {
                     menu: navHome,
                     name: "Home",
                     alt: "Home",
-                    link: "/"
+                    link: "#topmenu"
                 },
                 {
                     menu: navFeatures,
                     name: "Features",
                     alt: "Features",
-                    link: "/"
+                    link: "#features"
                 },
                 {
                     menu: navTestimonial,
                     name: "Testimonial",
                     alt: "Testimonial",
-                    link: "/"
+                    link: "#testimonial"
                 },
                 {
                     menu: navAbout,
                     name: "About",
                     alt: "About",
-                    link: "/"
+                    link: "#about"
                 }
             ]
         }
