@@ -5,9 +5,15 @@
                 <div class="col-lg-3">
                     <h3>Company</h3>
                     <ul class="footer__links">
-                        <li v-for="(footerMenus, i) in footerMenu" :key="i">
-                            <nuxt-link :to="footerMenus.link">{{ footerMenus.name }}</nuxt-link>
+                        <li>
+                            <a href="mailto:niko@videotc.com">Contact us</a>
                         </li>
+                        <li>
+                            <a href="/">Terms of use</a>
+                        </li>
+                        <li>
+                            <a href="/">Privacy</a>
+                        </li>                                                
                     </ul>
                 </div>
                 <div class="col-lg-3">
@@ -60,22 +66,7 @@
 
 export default {
     data () {
-        return {
-            footerMenu: [
-                {
-                    link: "/",
-                    name: "Contact us"
-                },
-                {
-                    link: "/",
-                    name: "Terms of use"
-                },
-                {
-                    link: "/",
-                    name: "Privacy"
-                }
-            ]
-        }
+        return {}
     }
 }
 
