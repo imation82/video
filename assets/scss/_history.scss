@@ -4,7 +4,7 @@
     @include media("lg") {
         @include padding(100px, 0px, 100px, 0px);
     }    
-    @include padding(70px, 0px, 70px, 0px);
+    @include padding(90px, 0px, 80px, 0px);
     position: relative;
     &__headline {
         max-width: 763px;

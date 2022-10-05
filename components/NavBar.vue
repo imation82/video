@@ -24,7 +24,7 @@
                             <h3>VideoTC</h3>
                             <ul class="navbar-nav">
                                 <li v-for="(menus, i) in menu" :key="i" class="nav-item">
-                                    <a :href="menus.link" class="nav-link d-flex align-items-center" v-smooth-scroll>
+                                    <a @click="isShow = false" :href="menus.link" class="nav-link d-flex align-items-center" v-smooth-scroll>
                                         <img :src="menus.menu" :alt="menus.alt" class="me-4">{{ menus.name }}
                                     </a>
                                 </li>                          
