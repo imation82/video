@@ -1,15 +1,8 @@
 <template>
   <section>
-    <NavBar
-      headerColor="#FFFFFF"
+    <NavBar 
+      headerColor="#FAFAFA"
     />
-    <Introduction/> 
-    <History/>
-    <Connect/>
-    <Discover/>   
-    <Download/>
-    <Testimonial/>
-    <Team/>
     <Footer/>
   </section>
 </template>
@@ -28,6 +21,9 @@ import Footer from "~/components/Footer";
 
 export default {
     name: "Index",
+    props: {
+        headerColor: String
+    },                
     components: {
       NavBar,
       Introduction,

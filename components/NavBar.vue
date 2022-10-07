@@ -1,6 +1,6 @@
 <template>
     <section id="topmenu">
-        <nav class="menu navbar navbar-expand-lg">
+        <nav class="menu navbar navbar-expand-lg" :style="{backgroundColor: headerColor}">
             <div class="container">
                 <a href="#topmenu" v-smooth-scroll>
                     <img src="~assets/images/logo.png" alt="Logo">
@@ -49,8 +49,12 @@ import navTestimonial from "~/assets/svg/testimonial.svg";
 import navAbout from "~/assets/svg/about.svg";
 
 export default {
+    props: {
+        headerColor: String
+    },
     data() {
         return {
+            color: '#ffffff',
             isShow:false,
             menu: [
                 {
