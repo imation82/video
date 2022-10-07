@@ -12,7 +12,7 @@
                             <a href="/">Terms of use</a>
                         </li>
                         <li>
-                            <a href="/">Privacy</a>
+                            <a href="/privacypolicy">Privacy</a>
                         </li>                                                
                     </ul>
                 </div>

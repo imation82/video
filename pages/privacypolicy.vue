@@ -1,38 +1,19 @@
 <template>
   <section>
-    <NavBar 
-      headerColor="#FAFAFA"
-    />
+    <Privacy/>
     <Footer/>
   </section>
 </template>
 
 <script>
 
-import NavBar from '~/components/NavBar';
-import Introduction from '~/components/Introduction';
-import History from '~/components/History';
-import Connect from '~/components/Connect';
-import Discover from '~/components/Discover';
-import Download from '~/components/Download';
-import Testimonial from '~/components/Testimonial';
-import Team from '~/components/Team';
+import Privacy from '~/components/Privacy';
 import Footer from "~/components/Footer";
 
 export default {
-    name: "Index",
-    props: {
-        headerColor: String
-    },                
+    name: "Index",              
     components: {
-      NavBar,
-      Introduction,
-      History,
-      Connect,
-      Discover,
-      Download,
-      Testimonial,
-      Team,
+      Privacy,
       Footer
   }
 }
