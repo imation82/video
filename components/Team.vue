@@ -42,15 +42,16 @@
 import VueSlickCarousel from 'vue-slick-carousel';    
 
 import team01 from "~/assets/images/team/nicholas.jpg";
-import team02 from "~/assets/images/team/samantha.jpg";
-import team03 from "~/assets/images/team/nicole.jpg";
-import team04 from "~/assets/images/team/mitchell.jpg";
-import team05 from "~/assets/images/team/dane.jpg";
-import team06 from "~/assets/images/team/hasan.jpg";
-import team07 from "~/assets/images/team/julia.jpg";
-import team08 from "~/assets/images/team/ariful.jpg";
-import team09 from "~/assets/images/team/rahima.jpg";
-import team10 from "~/assets/images/team/ward.jpg";
+import team02 from "~/assets/images/team/jessica.jpg";
+import team03 from "~/assets/images/team/samantha.jpg";
+import team04 from "~/assets/images/team/nicole.jpg";
+import team05 from "~/assets/images/team/mitchell.jpg";
+import team06 from "~/assets/images/team/dane.jpg";
+import team07 from "~/assets/images/team/hasan.jpg";
+import team08 from "~/assets/images/team/julia.jpg";
+import team09 from "~/assets/images/team/ariful.jpg";
+import team10 from "~/assets/images/team/rahima.jpg";
+import team11 from "~/assets/images/team/ward.jpg";
 
 
 export default {
@@ -91,62 +92,69 @@ export default {
                 },
                 {
                     img: team02,
+                    name: "Jessica K",
+                    alt: "Jessica",
+                    position: "Product Manager",
+                    place: ""
+                },                
+                {
+                    img: team03,
                     name: "Samantha P",
                     alt: "Samantha",
                     position: "Founder",
                     place: "Iowa City, Iowa"
                 },
                 {
-                    img: team03,
+                    img: team04,
                     name: "Nicole P",
                     alt: "Nicole",
                     position: "Co-Founder",
                     place: "Pine Mountain, Georgia"
                 },
                 {
-                    img: team04,
+                    img: team05,
                     name: "Mitchell N",
                     alt: "Mitchell",
                     position: "Co-Founder",
                     place: "Fort Madison, Iowa"
                 },
                 {
-                    img: team05,
+                    img: team06,
                     name: "Dane B",
                     alt: "Dane",
                     position: "VP Project Manager",
                     place: "Vernon, Washington"
                 },
                 {
-                    img: team06,
+                    img: team07,
                     name: "Hasan H",
                     alt: "Hasan",
                     position: "Advisor",
                     place: "Manhattan, New York"
                 },
                 {
-                    img: team07,
+                    img: team08,
                     name: "Julia M",
                     alt: "Julia",
                     position: "Consultant",
                     place: "Spain"
                 },
                 {
-                    img: team08,
+                    img: team09,
                     name: "Ariful H",
                     alt: "Ariful",
                     position: "UI/UX Designer",
                     place: "Bangladesh"
                 },
                 {
-                    img: team09,
+                    img: team10,
                     name: "Rahima S",
                     alt: "Rahima",
                     position: "Programmer",
                     place: "Bangladesh"
                 },
                 {
-                    img: team10,
+                    img: team11,
                     name: "Ward G",
                     alt: "Ward",
                     position: "Programmer",

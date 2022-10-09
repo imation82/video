@@ -21,18 +21,19 @@
         } 
     } 
     &__slider {
+        position: relative;
         display: block !important;
         background: #fff;
         padding: 24px;
         border-radius: 10px;
         p {
             margin-bottom: 0px;
-            @include font($base-font-size, $font-weight-1, $line-height-2);
+            @include font($font-size-7, $font-weight-1, $line-height-2);
             color: #202020;
         }
     }
     &__content {
-        margin-top: 40px;
+        margin-top: 30px;
         img {
             margin-right: 10px;
         }
