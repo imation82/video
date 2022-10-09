@@ -1,5 +1,6 @@
 <template>
   <section>
+    <CustomNavbar/>
     <Privacy/>
     <Footer/>
   </section>
@@ -7,6 +8,7 @@
 
 <script>
 
+import CustomNavbar from '~/components/CustomNavbar';
 import Privacy from '~/components/Privacy';
 import Footer from "~/components/Footer";
 

@@ -15,7 +15,6 @@
                         <div class="team__profile--content text-center">
                             <h4>{{ teams.name }}</h4>
                             <h5>{{ teams.position }}</h5>
-                            <span>{{ teams.place }}</span>
                         </div>
                     </div>
                 </div>
@@ -27,7 +26,6 @@
                         <div class="team__profile--content text-center">
                             <h4>{{ teams.name }}</h4>
                             <h5>{{ teams.position }}</h5>
-                            <span>{{ teams.place }}</span>
                         </div>
                     </div>
                 </div>
@@ -87,78 +85,67 @@ export default {
                     img: team01,
                     name: "Nicholas P",
                     alt: "Nicholas",
-                    position: "Founder CEO",
-                    place: "Burlington, Iowa"
+                    position: "Founder CEO"
                 },
                 {
                     img: team02,
                     name: "Jessica K",
                     alt: "Jessica",
-                    position: "Product Manager",
-                    place: ""
+                    position: "Product Manager"
                 },                
                 {
                     img: team03,
                     name: "Samantha P",
                     alt: "Samantha",
-                    position: "Founder",
-                    place: "Iowa City, Iowa"
+                    position: "Founder"
                 },
                 {
                     img: team04,
                     name: "Nicole P",
                     alt: "Nicole",
-                    position: "Co-Founder",
-                    place: "Pine Mountain, Georgia"
+                    position: "Co-Founder"
                 },
                 {
                     img: team05,
                     name: "Mitchell N",
                     alt: "Mitchell",
-                    position: "Co-Founder",
-                    place: "Fort Madison, Iowa"
+                    position: "Co-Founder"
                 },
                 {
                     img: team06,
                     name: "Dane B",
                     alt: "Dane",
-                    position: "VP Project Manager",
-                    place: "Vernon, Washington"
+                    position: "VP Project Manager"
                 },
                 {
                     img: team07,
                     name: "Hasan H",
                     alt: "Hasan",
-                    position: "Advisor",
-                    place: "Manhattan, New York"
+                    position: "Advisor"
                 },
                 {
                     img: team08,
                     name: "Julia M",
                     alt: "Julia",
-                    position: "Consultant",
-                    place: "Spain"
+                    position: "Consultant"
                 },
                 {
                     img: team09,
                     name: "Ariful H",
                     alt: "Ariful",
-                    position: "UI/UX Designer",
-                    place: "Bangladesh"
+                    position: "UI/UX Designer"
                 },
                 {
                     img: team10,
                     name: "Rahima S",
                     alt: "Rahima",
-                    position: "Programmer",
-                    place: "Bangladesh"
+                    position: "Programmer"
                 },
                 {
                     img: team11,
                     name: "Ward G",
                     alt: "Ward",
-                    position: "Programmer",
-                    place: "Amman, Jordan"
+                    position: "Programmer"
                 }                                                      
             ]
         }
