@@ -9,7 +9,7 @@
                             <a href="mailto:niko@videotc.com">Contact us</a>
                         </li>
                         <li>
-                            <a href="/">Terms of use</a>
+                            <a href="/termsofuse">Terms of use</a>
                         </li>
                         <li>
                             <a href="/privacypolicy">Privacy</a>

@@ -15,6 +15,7 @@ import Footer from "~/components/Footer";
 export default {
     name: "Index",              
     components: {
+      CustomNavbar,
       Privacy,
       Footer
   }

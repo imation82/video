@@ -1,0 +1,25 @@
+
+.terms {
+    @include media("lg") {
+        @include padding(165px, 0px, 100px, 0px);
+    }    
+    @include padding(80px, 0px, 140px, 0px);    
+    h2 {
+        font-weight: $font-weight-2;
+        font-size: $font-size-2;
+        line-height: $line-height-7;
+        margin-bottom: 30px;
+    }
+    h3 {
+        @include font($font-size-6, $font-weight-3, $line-height-4);
+        color: $text-black;
+    } 
+    h4 {
+        @include font($base-font-size, $font-weight-1, $line-height-4);
+        color: $text-gray;
+    }         
+    hr {
+        border: 1px solid #D9D9D9;
+        margin-bottom: 50px;
+    }
+}
