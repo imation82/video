@@ -35,18 +35,18 @@
                     <div class="introduction__right float-lg-end">
                         <div class="row mt-lg-3">
                             <div class="col-lg-6 col-md-6 col-6">
-                                <img src="~assets/svg/intro-1.svg" alt="Intro 1" class="d-block mx-auto float-end img-fluid float-lg-end mb-4">
+                                <img src="~assets/images/intro-1.png" alt="Intro 1" class="d-block mx-auto float-end img-fluid float-lg-end mb-4">
                             </div>
                             <div class="col-lg-6 col-md-6 col-6">
-                                <img src="~assets/svg/intro-2.svg" alt="Intro 2" class="d-block mx-auto float-start img-fluid mb-4">
+                                <img src="~assets/images/intro-2.png" alt="Intro 2" class="d-block mx-auto float-start img-fluid mb-4">
                             </div>
                         </div>
                         <div class="row mb-lg-3">
                             <div class="col-lg-6 col-md-6 col-6">
-                                <img src="~assets/svg/intro-3.svg" alt="Intro 3" class="d-block mx-auto img-fluid float-end float-lg-end">
+                                <img src="~assets/images/intro-3.png" alt="Intro 3" class="d-block mx-auto img-fluid float-end float-lg-end">
                             </div>
                             <div class="col-lg-6 col-md-6 col-6">
-                                <img src="~assets/svg/intro-4.svg" alt="Intro 4" class="d-block mx-auto float-start img-fluid">
+                                <img src="~assets/images/intro-4.png" alt="Intro 4" class="d-block mx-auto float-start img-fluid">
                             </div>
                         </div>                        
                     </div>

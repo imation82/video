@@ -23,12 +23,10 @@
 
 import VueSlickCarousel from 'vue-slick-carousel';
 
-import slider01 from "~/assets/images/discover/discover-1.svg";
-import slider02 from "~/assets/images/discover/discover-2.svg";
-import slider03 from "~/assets/images/discover/discover-3.svg";
-import slider04 from "~/assets/images/discover/discover-4.svg";
-import slider05 from "~/assets/images/discover/discover-1.svg";
-import slider06 from "~/assets/images/discover/discover-2.svg";
+import slider01 from "~/assets/images/discover/discover-1.png";
+import slider02 from "~/assets/images/discover/discover-2.png";
+import slider03 from "~/assets/images/discover/discover-3.png";
+import slider04 from "~/assets/images/discover/discover-4.png";
 
 export default {
   components: {
@@ -80,15 +78,7 @@ export default {
             {
                 slide: slider04,
                 alt: "Slide 04"
-            },
-            {
-                slide: slider05,
-                alt: "Slide 05"
-            },
-            {
-                slide: slider06,
-                alt: "Slide 06"
-            }                        
+            }                     
         ]
     }
   }
