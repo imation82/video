@@ -9,4 +9,21 @@
     bottom: 0;
     width: 100%;
     height: 90px;
+    img {
+        max-width: 115px !important;
+    }    
+    .btn-success {
+        background-color: #8b69d9;
+        border-radius: 2px;
+        &:hover,
+        &:focus {
+            background-color: #6747B0 !important;
+            border-color: #6747B0 !important;
+        }
+    }
+    @include media("lg") {
+        img {
+            max-width: 185px !important;
+        }
+    }    
 }
