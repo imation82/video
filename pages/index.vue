@@ -1,8 +1,7 @@
 <template>
   <section>
-    <NavBar
-      headerColor="#FFFFFF"
-    />
+    <BackTop/>
+    <NavBar/>
     <Introduction/> 
     <History/>
     <Connect/>
@@ -16,6 +15,7 @@
 
 <script>
 
+import BackTop from '~/components/BackTop';
 import NavBar from '~/components/NavBar';
 import Introduction from '~/components/Introduction';
 import History from '~/components/History';
@@ -29,6 +29,7 @@ import Footer from "~/components/Footer";
 export default {
     name: "Index",
     components: {
+      BackTop,
       NavBar,
       Introduction,
       History,
