@@ -3,7 +3,7 @@
     @include media("lg") {
         @include padding(165px, 0px, 100px, 0px);
     }    
-    @include padding(120px, 0px, 140px, 0px);    
+    @include padding(120px, 0px, 40px, 0px);    
     h2 {
         font-weight: $font-weight-2;
         font-size: $font-size-2;
