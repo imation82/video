@@ -11,6 +11,7 @@
             <VueSlickCarousel v-bind="slickOptions">
                 <div v-for="(testimonials, i) in testimonial" :key="i">
                   <div class="testimonial__slider">
+                    <h3 class="text-center">{{ testimonials.title }}</h3>
                     <p class="text-left">{{ testimonials.comments }}</p>
                     <div class="testimonial__content d-flex justify-content-center">
                         <div>
@@ -43,9 +44,7 @@ export default {
         slidesToShow: 2,
         arrows: false,
         dots: true,
-        // infinite: true,
         adaptiveHeight: false,
-        // centerPadding: '0px',
         draggable: true,
         autoplay: false,
         slidesToScroll: 1,
@@ -75,21 +74,24 @@ export default {
       },
       testimonial: [
         {
-            comments: "❝ This app is so easy to use. My 93 year-old grandmother loves to record stories from her childhood and adolescence on this app. She has no trouble using it. The videos are very easy to record and the questions are so engage. Would totally recommend this app to anyone who wants to preserve their family story! ❞",
-            name: "Sammypoth",
+            title: "' Amazing App for all Generations! '",
+            comments: "This app is so easy to use. My 93 year-old grandmother loves to record stories from her childhood and adolescence on this app. She has no trouble using it. The videos are very easy to record and the questions are so engage. Would totally recommend this app to anyone who wants to preserve their family story!",
+            name: "S.S",
             alt: "Sammypoth",
             clientImg: client,
             rating: "★★★★★"
         },
         {
-            comments: "❝ My mom used the app to tell stories about our family and the stories are so great. She told of how she met my father and its information I never knew. I now will have the information in a video. It is truly amazing. To think that I now will have her life told by her for now and forever. I used to do videos of her but they were cumbersome and not organized. This app took care of that issue. LOVE THIS APP. ❞",
-            name: "Nicopoth",
+            title: "' My MOM Loves This '",
+            comments: "My mom used the app to tell stories about our family and the stories are so great. She told of how she met my father and its information I never knew. I now will have the information in a video. It is truly amazing. To think that I now will have her life told by her for now and forever. I used to do videos of her but they were cumbersome and not organized. This app took care of that issue. LOVE THIS APP.",
+            name: "N.J",
             alt: "Nicopoth",
             clientImg: client,
             rating: "★★★★★"            
         },
         {
-            comments: "❝ What a wonderful app for storing video memories. It engages family members to tell their stories and viewpoints about precious life events. Very easy to use even for the old generation. 5 stars. ❞",
+            title: "' This is the best app for storing video memories!! '",
+            comments: "What a wonderful app for storing video memories. It engages family members to tell their stories and viewpoints about precious life events. Very easy to use even for the old generation. 5 stars.",
             name: "Cocochloe",
             alt: "Cocochooe",
             clientImg: client,

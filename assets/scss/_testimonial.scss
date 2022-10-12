@@ -26,6 +26,11 @@
         background: #fff;
         padding: 24px;
         border-radius: 10px;
+        h3 {
+            font-family: "Roboto", sans-serif;
+            @include font($font-size-6, $font-weight-1, $line-height-2);   
+            margin-bottom: 15px;
+        }
         p {
             margin-bottom: 0px;
             @include font($font-size-7, $font-weight-1, $line-height-2);
