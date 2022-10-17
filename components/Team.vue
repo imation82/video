@@ -50,6 +50,7 @@ import team08 from "~/assets/images/team/julia.jpg";
 import team09 from "~/assets/images/team/ariful.jpg";
 import team10 from "~/assets/images/team/rahima.jpg";
 import team11 from "~/assets/images/team/ward.jpg";
+import team12 from "~/assets/images/team/carrie.jpg";
 
 
 export default {
@@ -146,7 +147,13 @@ export default {
                     name: "Ward G",
                     alt: "Ward",
                     position: "Programmer"
-                }                                                      
+                },
+                {
+                    img: team12,
+                    name: "Carrie A",
+                    alt: "Carrie",
+                    position: "QA Testing"
+                }                                                                       
             ]
         }
     },
