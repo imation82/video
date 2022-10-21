@@ -62,14 +62,34 @@
 
 // ===== Slider custom style ===== //
 
-.team .slick-dots {
-    bottom: -25px !important;
+.slick-prev {
+    left: 45% !important;
+    top: 105% !important;
 }
 
-@media (max-width: 383px) {
-    .team .slick-dots {
-        bottom: -40px !important;
+.slick-next {
+    right: 45% !important;
+    top: 105% !important;
+}
+
+@media (max-width:767px) {
+    .slick-prev {
+        left: 40% !important;
+        top: 105% !important;
+    }
+    
+    .slick-next {
+        right: 40% !important;
+        top: 105% !important;
     }    
+}
+
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+    color: #F2994A !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    opacity: 1 !important;
 }
 
 .slick-list {

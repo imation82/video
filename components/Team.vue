@@ -28,7 +28,7 @@
                             <h5>{{ teams.position }}</h5>
                         </div>
                     </div>
-                </div>
+                </div>              
             </VueSlickCarousel>            
         </div>
     </section>
@@ -66,17 +66,29 @@ export default {
         adaptiveHeight: true,
         centerPadding: '0',
         draggable: false,
-        responsive: [           
+        responsive: [   
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 3,
+                dots: false,
+                arrows: true,
+              },
+            },                    
             {
               breakpoint: 768,
               settings: {
                 slidesToShow: 3,
+                dots: false,
+                arrows: true
               },
             },
             {
               breakpoint: 767,
               settings: {
                 slidesToShow: 2,
+                dots: false,
+                arrows: true
               },
             }                                      
         ]           
