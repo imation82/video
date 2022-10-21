@@ -66,6 +66,12 @@
     bottom: -25px !important;
 }
 
+@media (max-width: 383px) {
+    .team .slick-dots {
+        bottom: -40px !important;
+    }    
+}
+
 .slick-list {
     margin: 0 -10px !important;
 }
